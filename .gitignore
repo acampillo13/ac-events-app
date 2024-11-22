@@ -31,6 +31,7 @@ yarn-error.log*
 
 # env files (can opt-in for committing if needed)
 .env*
+!.env.example  # Permite incluir un archivo de ejemplo .env si lo necesitas
 
 # vercel
 .vercel
@@ -38,3 +39,35 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# editor config
+/.vscode/
+/.idea/
+
+# archivos de respaldo y temporales de editor
+*.bak
+*.swp
+*.swo
+*~
+
+# Archivos del sistema operativo
+Thumbs.db
+Desktop.ini
+
+# Archivos de configuración sensibles
+*.log
+*.sql
+*.sqlite
+
+# Directorios de caché (si usas caché personalizado o dependencias)
+.cache/
+
+# Archivos de lock de dependencias (si usas Yarn o npm)
+yarn.lock
+package-lock.json
+
+# Archivos específicos del entorno de desarrollo
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
