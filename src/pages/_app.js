@@ -1,5 +1,5 @@
-import 'bootstrap/dist/css/bootstrap-grid.min.css'; // Importa solo el CSS del grid
-import '../styles/globals.scss';  // Si tienes estilos globales personalizados en SCSS
+import 'bootstrap/dist/css/bootstrap-grid.min.css';
+import '../styles/globals.scss';
 import React from 'react';
 
 function MyApp({ Component, pageProps }) {

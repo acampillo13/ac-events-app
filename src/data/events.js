@@ -1,5 +1,3 @@
-// src/data/events.js
-
 const events = [
     {
         name: "Festival de Jazz",

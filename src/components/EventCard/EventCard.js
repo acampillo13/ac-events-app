@@ -1,6 +1,6 @@
 import React from "react";
 import Link from "next/link";
-import styles from "./EventCard.module.scss"; // Importa los estilos Sass
+import styles from "./EventCard.module.scss";
 
 const EventCard = ({ event }) => {
     return (
