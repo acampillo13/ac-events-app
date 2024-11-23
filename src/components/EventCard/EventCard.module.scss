@@ -1,0 +1,41 @@
+.event-card {
+    display: block;
+    text-decoration: none;
+    color: inherit;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+    &:hover {
+        transform: scale(1.02);
+        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    }
+
+    &__item {
+        display: flex;
+        flex-direction: column;
+    }
+
+    &__img {
+        width: 100%;
+        height: auto;
+    }
+
+    &__details {
+        padding: 16px;
+        background-color: #f9f9f9;
+    }
+
+    &__title {
+        font-size: 1.5rem;
+        font-weight: bold;
+        margin-bottom: 8px;
+    }
+
+    &__date,
+    &__place {
+        font-size: 1rem;
+        margin: 0;
+    }
+}
