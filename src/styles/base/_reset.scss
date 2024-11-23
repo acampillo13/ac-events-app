@@ -1,0 +1,50 @@
+/* _reset.scss */
+
+/* Restablece la caja de todos los elementos a border-box */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Asegura que los elementos de enlace no tengan subrayado de forma predeterminada */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Resetea el estilo de listas */
+ul,
+ol {
+  list-style: none;
+}
+
+/* Elimina el borde de los botones y campos de formulario */
+button,
+input,
+textarea {
+  border: none;
+  outline: none;
+  background: none;
+  font-family: inherit;
+}
+
+/* Restablece los márgenes y el padding de los encabezados */
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  padding: 0;
+}
+
+/* Establece el comportamiento estándar para imágenes */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Otros ajustes básicos */
+body {
+  line-height: 1.5;
+  font-family: 'Arial', sans-serif;
+}

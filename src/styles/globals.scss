@@ -1,0 +1,15 @@
+/* globals.scss */
+
+/* Importa el archivo de reset */
+@import './base/reset';
+
+/* Importa otras configuraciones generales, como tipografía y variables */
+@import './base/typography';
+@import './layout/variables';
+@import './layout/mixins';
+
+/* Aquí puedes agregar otros estilos globales, como un fondo predeterminado o reglas generales */
+body {
+  background-color: #f5f5f5;
+  font-family: 'Arial', sans-serif;
+}
